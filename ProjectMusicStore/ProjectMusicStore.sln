@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Test", "MusicSto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Application", "MusicStore.Application\MusicStore.Application.csproj", "{C2F45158-ED93-4748-AF95-4334215E9356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{188FD5F5-CFF6-48B0-BBDA-8483D86D2A3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Domain", "Domain\MusicStore.Domain.csproj", "{188FD5F5-CFF6-48B0-BBDA-8483D86D2A3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Infra", "MusicStore.Infra\MusicStore.Infra.csproj", "{35CCDB55-F034-4DF4-98EF-A3F063A38858}"
 EndProject

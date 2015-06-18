@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Apresentação", "1.Apresentação", "{BFE69CFA-C324-4CFA-BB13-9A6894E66CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicação", "2.Aplicação", "{C0008514-1BDD-4F31-B04D-44668FD3BD1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domínio", "3.Domínio", "{932FCB08-2E8B-43F1-81B4-996E5E0F2DEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infraestrutura", "4.Infraestrutura", "{9AEFF5BA-3751-4E9C-9D2F-0B1283E1B6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Testes", "5.Testes", "{24D07EED-EB73-4E2B-8866-5A344269B2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Tests", "MusicStore.Tests\MusicStore.Tests.csproj", "{2104614F-7507-42BF-B1A1-4F7B2ADB6138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Domain", "MusicStore.Domain\MusicStore.Domain.csproj", "{5452A4BA-BC38-4822-8684-F3B82B9DDCFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2104614F-7507-42BF-B1A1-4F7B2ADB6138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2104614F-7507-42BF-B1A1-4F7B2ADB6138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2104614F-7507-42BF-B1A1-4F7B2ADB6138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2104614F-7507-42BF-B1A1-4F7B2ADB6138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5452A4BA-BC38-4822-8684-F3B82B9DDCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5452A4BA-BC38-4822-8684-F3B82B9DDCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5452A4BA-BC38-4822-8684-F3B82B9DDCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5452A4BA-BC38-4822-8684-F3B82B9DDCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5452A4BA-BC38-4822-8684-F3B82B9DDCFD} = {932FCB08-2E8B-43F1-81B4-996E5E0F2DEC}
+		{2104614F-7507-42BF-B1A1-4F7B2ADB6138} = {24D07EED-EB73-4E2B-8866-5A344269B2D5}
+	EndGlobalSection
+EndGlobal

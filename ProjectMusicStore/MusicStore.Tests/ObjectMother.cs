@@ -14,7 +14,7 @@ namespace MusicStore.Tests
         public static Instrumento GetInstrumento()
         {
             Instrumento instrumento = new Instrumento();
-            instrumento.Nome = "Guitarra";
+            instrumento.Nome = "Guitarra Flying V";
             instrumento.DataFabricacao = new DateTime(1992, 09, 18);
             instrumento.TipoInstrumento =
                 new TipoInstrumento()

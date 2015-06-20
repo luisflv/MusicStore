@@ -41,6 +41,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1506.2016\lib\net40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
@@ -60,11 +63,21 @@
     <Compile Include="ObjectMother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InstrumentoDomainTest.cs" />
+    <Compile Include="InstrumentoRepositoryTeste.cs" />
+    <Compile Include="InstrumentoServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MusicStore.Application\MusicStore.Application.csproj">
+      <Project>{c2f45158-ed93-4748-af95-4334215e9356}</Project>
+      <Name>MusicStore.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj">
       <Project>{188fd5f5-cff6-48b0-bbda-8483d86d2a3c}</Project>
       <Name>MusicStore.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MusicStore.Infra.Data\MusicStore.Infra.Data.csproj">
+      <Project>{2dacc88c-77e9-4a95-b270-f6840387d9a8}</Project>
+      <Name>MusicStore.Infra.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\MusicStore.Infra\MusicStore.Infra.csproj">
       <Project>{35ccdb55-f034-4df4-98ef-a3f063a38858}</Project>

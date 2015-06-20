@@ -35,5 +35,17 @@ namespace MusicStore.Tests
             Validator.Validate(instrumento);
         }
 
+
+        [TestMethod]
+        [ExpectedException(typeof(DomainException))]
+        public void Criando_Um_Instrumento_Com_Data_Invalida()
+        {
+            Instrumento instrumento = new Instrumento();
+          
+            Validator.Validate(instrumento);
+        }
+
+
+
     }
 }

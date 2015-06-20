@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainException.cs" />
     <Compile Include="Instrumento.cs" />
     <Compile Include="IInstrumentoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

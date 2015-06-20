@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace MusicStore.Infra
 {
-    public class Class1
+    public class Validator
     {
+
+        public static void Validate(IObjectValidation obj)
+        {
+            obj.Validate();
+        }
+
     }
 }

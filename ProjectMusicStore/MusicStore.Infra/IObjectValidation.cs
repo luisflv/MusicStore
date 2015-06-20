@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicStore.Application
+namespace MusicStore.Infra
 {
-    public class Class1
+    public interface IObjectValidation
     {
+        void Validate();
     }
 }

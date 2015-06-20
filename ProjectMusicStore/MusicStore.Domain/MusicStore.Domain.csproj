@@ -40,8 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Instrumento.cs" />
+    <Compile Include="IInstrumentoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoInstrumento.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStore.Infra\MusicStore.Infra.csproj">
+      <Project>{35ccdb55-f034-4df4-98ef-a3f063a38858}</Project>
+      <Name>MusicStore.Infra</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

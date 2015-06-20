@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicStore.Infra;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Instrumento
+    public class Instrumento : IObjectValidation
     {
 
         public int Id { get; set; }
@@ -17,7 +18,7 @@ namespace Domain
 
         public double Valor { get; set; }
 
-        public TipoInstrumento MyProperty { get; set; }
+        public TipoInstrumento TipoInstrumento { get; set; }
 
         public void Validate()
         {

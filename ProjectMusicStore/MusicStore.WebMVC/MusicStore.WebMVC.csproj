@@ -176,6 +176,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="music\Comfortably Numb.wav" />
+    <Content Include="pictures\img2.jpg" />
+    <Content Include="pictures\imgBaixo.jpg" />
+    <Content Include="pictures\imgBateria.jpg" />
+    <Content Include="pictures\imgFlauta.jpg" />
+    <Content Include="pictures\imgGaita.jpg" />
+    <Content Include="pictures\imgGuitarra.jpg" />
+    <Content Include="pictures\imgViolao.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

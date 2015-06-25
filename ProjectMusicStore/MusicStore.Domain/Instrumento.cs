@@ -26,10 +26,10 @@ namespace Domain
                 throw new DomainException("Nome inválido");
            // if (TipoInstrumento == null)
            //     throw new DomainException("Tipo inválido");
-            //if(Valor <= 0)
-              //  throw new DomainException("Valor inválido");
-            //if(DataFabricacao == null)
-             //   throw new DomainException("Data inválido");
+            if(Valor <= 0)
+               throw new DomainException("Valor inválido");
+            if(DataFabricacao == null)
+               throw new DomainException("Data inválido");
         }
         
 

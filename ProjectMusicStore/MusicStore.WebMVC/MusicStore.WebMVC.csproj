@@ -184,6 +184,7 @@
     <Content Include="pictures\imgGaita.jpg" />
     <Content Include="pictures\imgGuitarra.jpg" />
     <Content Include="pictures\imgViolao.jpg" />
+    <Content Include="pictures\musicStore.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

@@ -19,19 +19,19 @@ namespace Domain
         public double Valor { get; set; }
 
         public TipoInstrumento TipoInstrumento { get; set; }
-
+        
         public void Validate()
         {
             if (string.IsNullOrEmpty(Nome))
                 throw new DomainException("Nome inválido");
-            if (TipoInstrumento == null)
-                throw new DomainException("Tipo inválido");
-            if(Valor <= 0)
-                throw new DomainException("Valor inválido");
-            if(DataFabricacao == null)
-                throw new DomainException("Data inválido");
+           // if (TipoInstrumento == null)
+           //     throw new DomainException("Tipo inválido");
+            //if(Valor <= 0)
+              //  throw new DomainException("Valor inválido");
+            //if(DataFabricacao == null)
+             //   throw new DomainException("Data inválido");
         }
-
+        
 
     }
 }

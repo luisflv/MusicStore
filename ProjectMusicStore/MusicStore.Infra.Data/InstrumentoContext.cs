@@ -10,6 +10,11 @@ namespace MusicStore.Infra.Data
 {
      public class InstrumentoContext : DbContext
     {
+         public InstrumentoContext():base("MusicStoreDB")
+         {
+
+         }
+
         public DbSet<Instrumento> Instrumentos { get; set; }
         public DbSet<TipoInstrumento> TipoInstrumentos { get; set; }
 

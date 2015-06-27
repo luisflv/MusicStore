@@ -31,7 +31,10 @@ namespace MusicStore.WebMVC.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Instrumento instrumento = new Instrumento(); //db.Instrumentos.Find(id);
+            //Instrumento instrumento = new Instrumento(); //db.Instrumentos.Find(id);
+            int i = (int)id;
+
+            Instrumento instrumento = service.Retrieve(i);
             if (instrumento == null)
             {
                 return HttpNotFound();
@@ -50,7 +53,7 @@ namespace MusicStore.WebMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,DataFabricacao,Valor")] Instrumento instrumento)
+        public ActionResult Create([Bind(Include = "Id,Nome,DataFabricacao,Valor,TipoInstrumento")] Instrumento instrumento)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +88,7 @@ namespace MusicStore.WebMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,DataFabricacao,Valor")] Instrumento instrumento)
+        public ActionResult Edit([Bind(Include = "Id,Nome,DataFabricacao,Valor,TipoInstrumento")] Instrumento instrumento)
         {
             if (ModelState.IsValid)
             {

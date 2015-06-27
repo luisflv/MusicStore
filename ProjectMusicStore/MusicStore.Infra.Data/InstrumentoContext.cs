@@ -16,7 +16,7 @@ namespace MusicStore.Infra.Data
          }
 
         public DbSet<Instrumento> Instrumentos { get; set; }
-        public DbSet<TipoInstrumento> TipoInstrumentos { get; set; }
+       
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -26,11 +26,7 @@ namespace MusicStore.Infra.Data
                 .IsRequired()
                 .HasMaxLength(255);
 
-            modelBuilder.Entity<TipoInstrumento>().ToTable("TBTipoInstrumento");
-            modelBuilder.Entity<TipoInstrumento>()
-                .Property(b => b.Descricao)
-                .IsRequired()
-                .HasMaxLength(200);
+           
            
         }
 

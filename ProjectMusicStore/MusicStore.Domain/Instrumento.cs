@@ -18,7 +18,7 @@ namespace Domain
 
         public double Valor { get; set; }
 
-        public TipoInstrumento TipoInstrumento { get; set; }
+        public string TipoInstrumento { get; set; }
         
         public void Validate()
         {
